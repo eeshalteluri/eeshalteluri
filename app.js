@@ -10,10 +10,12 @@ import GetStarted from "./containers/GetStarted.js";
 
 try {
   document.getElementById("app").innerHTML = `
-      <div class="h-full flex flex-col">
+      <div class="relative sm:h-full flex flex-col">
         ${Navbar()}
         ${HeroSection()}
         ${Scroller()}
+        <img src="/public/images/waves1.png" alt="waves" class="z-[-10] opacity-10 absolute top-0 right-0 "/>
+        <img src="/public/images/waves2.png" alt="waves" class="z-[-10] opacity-25 absolute bottom-0 left-0 "/>
       </div>
       <div class="pb-20">
       ${Benefits()}
@@ -31,8 +33,25 @@ try {
   document.getElementById("app").innerHTML = `<pre style="color: red;">${error.message}</pre>`;
 }
 
-
 console.log("✅ app.js is loaded");
+
+const menuToggle = document.getElementById("menu-toggle");
+const menuClose = document.getElementById("menu-close");
+const mobileMenu = document.getElementById("mobile-menu");
+
+if (menuToggle && mobileMenu && menuClose) {
+  menuToggle.addEventListener("click", () => {
+    mobileMenu.classList.remove("hidden");
+    menuToggle.classList.add("hidden");
+    menuClose.classList.remove("hidden");
+  });
+
+  menuClose.addEventListener("click", () => {
+    mobileMenu.classList.add("hidden");
+    menuToggle.classList.remove("hidden");
+    menuClose.classList.add("hidden");
+  });
+}
 
 document.addEventListener("click", (e) => {
     if(e.target.classList.contains("nav-button")) {

@@ -10,6 +10,30 @@ html, body, #app {
     padding: 0;
 }
 
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("../fonts/PlusJakartaSans.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat.woff2') format('wooff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: "PlusJakartaSans", "Montserrat",sans-serif;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+
 /* This works for WebKit browsers (Chrome, Safari) */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
@@ -19,4 +43,19 @@ html, body, #app {
 .scrollbar-hide {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+.style-oneliner{
+  font-size: 2.25rem; 
+  line-height: 2.5rem; 
+  font-weight: 900;
+}
+
+/* Hides triangle/marker from summary (cross-browser) */
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
 }
