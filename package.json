@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "build:css": "tailwindcss -i ./styles.css -o ./dist/styles.css --minify",
-  "build": "npm run build:css && mkdir -p dist && cp index.html dist/ && cp app.js dist/ && cp -r fonts dist/ && cp -r public/images dist/"
-},
+    "build:css": "tailwindcss -i ./styles.css -o ./dist/styles.css --minify",
+    "build": "npm run build:css && mkdir -p dist && cp index.html dist/ && cp app.js dist/ && cp -r fonts dist/ && cp -r public/images dist/"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
