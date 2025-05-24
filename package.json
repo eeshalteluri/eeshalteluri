@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./styles.css -o ./dist/styles.css --watch"
-  },
+  "build": "mkdir -p dist && cp index.html dist/ && cp app.js dist/ && cp styles.css dist/ && cp -r fonts dist/ && cp -r public/images dist/"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

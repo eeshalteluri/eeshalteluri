@@ -14,8 +14,8 @@ try {
         ${Navbar()}
         ${HeroSection()}
         ${Scroller()}
-        <img src="/public/images/waves1.png" alt="waves" class="z-[-10] opacity-10 absolute top-0 right-0 "/>
-        <img src="/public/images/waves2.png" alt="waves" class="z-[-10] opacity-25 absolute bottom-0 left-0 "/>
+        <img src="/images/waves1.png" alt="waves" class="z-[-10] opacity-10 absolute top-0 right-0 "/>
+        <img src="/images/waves2.png" alt="waves" class="z-[-10] opacity-25 absolute bottom-0 left-0 "/>
       </div>
       <div class="pb-20">
       ${Benefits()}

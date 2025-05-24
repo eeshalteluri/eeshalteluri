@@ -37,10 +37,10 @@ const HowItWorks = () => {
                     </div>
                 </div>
 
-                <img src="/public/images/arrow.png" alt="arrow" class="hidden md:block w-32 h-32 lg:w-36 lg:h-36 xl:h-40 xl:w-40 2xl:h-48 2xl:w-48 md:absolute md:top-[30%] md:left-[25%] lg:top-[30%] lg:left-[35%] xl:top-[25%] xl:left-[45%] 2xl:top-[25%] 2xl:left-[45%] 2xl:rotate-12"/>
-                <img src="/public/images/arrow.png" alt="arrow" class="hidden md:block scale-x-[-1] w-32 h-32 lg:w-36 lg:h-36 xl:h-40 xl:w-40 2xl:h-48 2xl:w-48 md:absolute md:top-[55%] md:right-[25%] lg:top-[55%] lg:right-[35%] xl:top-[55%] xl:left-[45%] 2xl:-rotate-12"/>
-                <img src="/public/images/arrow1.png" alt="arrow" class="hidden md:absolute md:top-[20%] md:left-[45%] md:rotate-45"/>
-                <img src="/public/images/arrow2.png" alt="arrow" class="hidden md:absolute bottom-[300px] left-[700px] -rotate-90"/>
+                <img src="/images/arrow.png" alt="arrow" class="hidden md:block w-32 h-32 lg:w-36 lg:h-36 xl:h-40 xl:w-40 2xl:h-48 2xl:w-48 md:absolute md:top-[30%] md:left-[25%] lg:top-[30%] lg:left-[35%] xl:top-[25%] xl:left-[45%] 2xl:top-[25%] 2xl:left-[45%] 2xl:rotate-12"/>
+                <img src="/images/arrow.png" alt="arrow" class="hidden md:block scale-x-[-1] w-32 h-32 lg:w-36 lg:h-36 xl:h-40 xl:w-40 2xl:h-48 2xl:w-48 md:absolute md:top-[55%] md:right-[25%] lg:top-[55%] lg:right-[35%] xl:top-[55%] xl:left-[45%] 2xl:-rotate-12"/>
+                <img src="/images/arrow1.png" alt="arrow" class="hidden md:absolute md:top-[20%] md:left-[45%] md:rotate-45"/>
+                <img src="/images/arrow2.png" alt="arrow" class="hidden md:absolute bottom-[300px] left-[700px] -rotate-90"/>
             </div>
 
             <button class="p-4 rounded-full bg-primary text-secondary shadow-[0_0_10px_white] hover:bg-primary hover:text-secondary">
